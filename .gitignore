@@ -23,17 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables and secrets
+# Environment files
 .env
-.env.local
-.env.*.local
-# Ignore any Clever-Cloud provided files or local dumps
-.clevercloud
-clevercloud.env
-
-# Vite and build cache
-.vite/
-build/
-
-
-.vercel
+*.env
+server/.env
